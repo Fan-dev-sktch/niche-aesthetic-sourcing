@@ -1,0 +1,45 @@
+{
+  "data_status": "template",
+  "currency": null,
+  "max_orders": null,
+  "max_affordable_loss": null,
+  "boundary": null,
+  "zero_revenue_zero_recovery": false,
+  "no_double_counting_reviewed": false,
+  "cash_components": {
+    "inventory": {
+      "high": null,
+      "basis": null,
+      "source_ids": [],
+      "quantity": null,
+      "quote_minimum_quantity": null,
+      "unit_cash_high": null,
+      "inbound_cash_high": null
+    },
+    "samples_setup": {
+      "high": null,
+      "basis": null,
+      "source_ids": []
+    },
+    "acquisition": {
+      "high": null,
+      "basis": null,
+      "source_ids": []
+    },
+    "fulfillment_reserve": {
+      "high": null,
+      "basis": null,
+      "source_ids": []
+    },
+    "fees_taxes_returns_reserve": {
+      "high": null,
+      "basis": null,
+      "source_ids": []
+    },
+    "other_commitments": {
+      "high": null,
+      "basis": null,
+      "source_ids": []
+    }
+  }
+}

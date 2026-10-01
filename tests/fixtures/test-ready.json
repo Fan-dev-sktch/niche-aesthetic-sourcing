@@ -1,0 +1,373 @@
+{
+  "schema_version": "1.2",
+  "as_of": "2026-10-02",
+  "data_status": "synthetic",
+  "scope": {
+    "business_model": "overseas_consumer_retail",
+    "seller_country": "US",
+    "seller_entity": "synthetic entity",
+    "target_country": "US",
+    "target_channel": "etsy",
+    "ship_from": "US",
+    "budget": 150,
+    "currency": "USD",
+    "user_confirmed_preferences": [],
+    "user_exclusions": [],
+    "authorization": []
+  },
+  "sources": [
+    {
+      "id": "RIGHTS",
+      "title": "Synthetic audit source: RIGHTS",
+      "publisher": "synthetic fixture, not a real supplier or buyer",
+      "independence_key": "synthetic:RIGHTS",
+      "kind": "rights_document",
+      "url": "https://example.invalid/RIGHTS",
+      "retrieved_at": "2026-10-02",
+      "content_origin": "user_supplied",
+      "local_reference": "synthetic audit only",
+      "market": "US",
+      "data_scope": "sku",
+      "metrics": [],
+      "observation": "Synthetic audit data; no real market fact or transaction.",
+      "limitations": "Not evidence for product selection or an operating decision."
+    },
+    {
+      "id": "POLICY",
+      "title": "Synthetic audit source: POLICY",
+      "publisher": "synthetic fixture, not a real supplier or buyer",
+      "independence_key": "synthetic:POLICY",
+      "kind": "channel_policy",
+      "url": "https://example.invalid/POLICY",
+      "retrieved_at": "2026-10-02",
+      "content_origin": "user_supplied",
+      "local_reference": "synthetic audit only",
+      "market": "US",
+      "data_scope": "sku",
+      "metrics": [],
+      "observation": "Synthetic audit data; no real market fact or transaction.",
+      "limitations": "Not evidence for product selection or an operating decision."
+    },
+    {
+      "id": "SELLER",
+      "title": "Synthetic audit source: SELLER",
+      "publisher": "synthetic fixture, not a real supplier or buyer",
+      "independence_key": "synthetic:SELLER",
+      "kind": "seller_account_record",
+      "url": "https://example.invalid/SELLER",
+      "retrieved_at": "2026-10-02",
+      "content_origin": "user_supplied",
+      "local_reference": "synthetic audit only",
+      "market": "US",
+      "data_scope": "sku",
+      "metrics": [],
+      "observation": "Synthetic audit data; no real market fact or transaction.",
+      "limitations": "Not evidence for product selection or an operating decision."
+    },
+    {
+      "id": "SAMPLE",
+      "title": "Synthetic audit source: SAMPLE",
+      "publisher": "synthetic fixture, not a real supplier or buyer",
+      "independence_key": "synthetic:SAMPLE",
+      "kind": "fulfillment_test",
+      "url": "https://example.invalid/SAMPLE",
+      "retrieved_at": "2026-10-02",
+      "content_origin": "user_supplied",
+      "local_reference": "synthetic audit only",
+      "market": "US",
+      "data_scope": "sku",
+      "metrics": [],
+      "observation": "Synthetic audit data; no real market fact or transaction.",
+      "limitations": "Not evidence for product selection or an operating decision."
+    },
+    {
+      "id": "QUOTE",
+      "title": "Synthetic audit source: QUOTE",
+      "publisher": "synthetic fixture, not a real supplier or buyer",
+      "independence_key": "synthetic:QUOTE",
+      "kind": "supplier_quote",
+      "url": "https://example.invalid/QUOTE",
+      "retrieved_at": "2026-10-02",
+      "content_origin": "user_supplied",
+      "local_reference": "synthetic audit only",
+      "market": "US",
+      "data_scope": "sku",
+      "metrics": [
+        {
+          "name": "minimum_order_quantity",
+          "value": 5,
+          "unit": "units",
+          "scope": "quote",
+          "basis": "supplier_quote"
+        },
+        {
+          "name": "price",
+          "value": 7,
+          "currency": "USD",
+          "unit": "USD_per_unit",
+          "scope": "quote",
+          "basis": "supplier_quote"
+        }
+      ],
+      "observation": "SYNTHETIC ONLY: quote MOQ 5 units at USD 7 each, paid upfront; inbound cash USD 5.",
+      "limitations": "Not evidence for product selection or an operating decision."
+    },
+    {
+      "id": "MODEL",
+      "title": "Synthetic audit source: MODEL",
+      "publisher": "synthetic fixture, not a real supplier or buyer",
+      "independence_key": "synthetic:MODEL",
+      "kind": "cost_model",
+      "url": "https://example.invalid/MODEL",
+      "retrieved_at": "2026-10-02",
+      "content_origin": "user_supplied",
+      "local_reference": "synthetic audit only",
+      "market": "US",
+      "data_scope": "sku",
+      "metrics": [],
+      "observation": "Synthetic audit data; no real market fact or transaction.",
+      "limitations": "Not evidence for product selection or an operating decision."
+    }
+  ],
+  "candidates": [
+    {
+      "id": "AUDIT-ITEM",
+      "name": "Synthetic operational test",
+      "hypothesis": "This is solely a validation fixture.",
+      "stage": "test_ready",
+      "next_action": "Do not perform an external action; synthetic audit only.",
+      "gates": {
+        "demand": {
+          "status": "unknown",
+          "rationale": "No real evidence.",
+          "source_ids": []
+        },
+        "aesthetic_premium": {
+          "status": "unknown",
+          "rationale": "No real evidence.",
+          "source_ids": []
+        },
+        "competition_gap": {
+          "status": "unknown",
+          "rationale": "No real evidence.",
+          "source_ids": []
+        },
+        "unit_economics": {
+          "status": "unknown",
+          "rationale": "No real evidence.",
+          "source_ids": []
+        },
+        "rights_and_channel": {
+          "status": "pass",
+          "rationale": "Synthetic rights fixture only.",
+          "source_ids": [
+            "RIGHTS",
+            "POLICY"
+          ],
+          "details": {
+            "target_country": "US",
+            "target_channel": "etsy",
+            "rights_basis": "original_design_reviewed",
+            "final_design_assets_reviewed": true,
+            "marketing_assets_reviewed": true,
+            "channel_eligibility_reviewed": true
+          }
+        },
+        "fulfillment_fit": {
+          "status": "pass",
+          "rationale": "Synthetic sample fixture only.",
+          "source_ids": [
+            "SAMPLE"
+          ],
+          "details": {
+            "sample_checked": true,
+            "fit_quality_checked": true,
+            "delivery_plan_checked": true,
+            "test_date": "2026-10-01",
+            "test_result": "Synthetic result only."
+          }
+        }
+      },
+      "channel_access": {
+        "status": "pass",
+        "seller_country": "US",
+        "seller_entity": "synthetic entity",
+        "target_channel": "etsy",
+        "seller_verification_reviewed": true,
+        "payout_reviewed": true,
+        "rationale": "Synthetic access fixture only.",
+        "source_ids": [
+          "POLICY"
+        ],
+        "seller_evidence_source_ids": [
+          "SELLER"
+        ]
+      },
+      "test_costs": {
+        "currency": "USD",
+        "boundary": "Synthetic per order amount inclusive of all listed components.",
+        "quote_source_ids": [
+          "QUOTE"
+        ],
+        "model_source_ids": [
+          "MODEL"
+        ],
+        "acquisition_cap_per_order": 10,
+        "max_affordable_loss": 150,
+        "working_capital_checked": true,
+        "components": {
+          "revenue": {
+            "low": 30,
+            "high": 30,
+            "basis": "Synthetic amount; zero means an explicitly absent charge in this fixture.",
+            "source_ids": [
+              "MODEL"
+            ]
+          },
+          "purchase": {
+            "low": 7,
+            "high": 7,
+            "basis": "Synthetic amount; zero means an explicitly absent charge in this fixture.",
+            "source_ids": [
+              "MODEL"
+            ]
+          },
+          "packaging": {
+            "low": 1,
+            "high": 1,
+            "basis": "Synthetic amount; zero means an explicitly absent charge in this fixture.",
+            "source_ids": [
+              "MODEL"
+            ]
+          },
+          "international_shipping": {
+            "low": 5,
+            "high": 5,
+            "basis": "Synthetic amount; zero means an explicitly absent charge in this fixture.",
+            "source_ids": [
+              "MODEL"
+            ]
+          },
+          "platform_payment": {
+            "low": 2,
+            "high": 2,
+            "basis": "Synthetic amount; zero means an explicitly absent charge in this fixture.",
+            "source_ids": [
+              "MODEL"
+            ]
+          },
+          "taxes": {
+            "low": 0,
+            "high": 0,
+            "basis": "Synthetic amount; zero means an explicitly absent charge in this fixture.",
+            "source_ids": [
+              "MODEL"
+            ]
+          },
+          "returns": {
+            "low": 0,
+            "high": 0,
+            "basis": "Synthetic amount; zero means an explicitly absent charge in this fixture.",
+            "source_ids": [
+              "MODEL"
+            ]
+          },
+          "other_variable": {
+            "low": 0,
+            "high": 0,
+            "basis": "Synthetic amount; zero means an explicitly absent charge in this fixture.",
+            "source_ids": [
+              "MODEL"
+            ]
+          },
+          "fulfillment_labor": {
+            "low": 1,
+            "high": 1,
+            "basis": "Synthetic amount; zero means an explicitly absent charge in this fixture.",
+            "source_ids": [
+              "MODEL"
+            ]
+          },
+          "design_allocated": {
+            "low": 1,
+            "high": 1,
+            "basis": "Synthetic amount; zero means an explicitly absent charge in this fixture.",
+            "source_ids": [
+              "MODEL"
+            ]
+          }
+        }
+      },
+      "pilot": {
+        "audience": "Synthetic US adult collector group",
+        "duration": "14 days",
+        "variables": "One synthetic price",
+        "success_criteria": "Predeclared synthetic result",
+        "stop_criteria": "Stop at synthetic cash cap",
+        "authorization_required": "No external action authorized; preparation only.",
+        "budget_cap": 150,
+        "currency": "USD",
+        "qualified_visit_target": 100,
+        "acquisition_channel": "synthetic content source",
+        "acquisition_budget_cap": 50
+      },
+      "funding_plan": {
+        "currency": "USD",
+        "max_orders": 5,
+        "max_affordable_loss": 150,
+        "boundary": "SYNTHETIC ONLY: whole-trial maximum cash commitment. Settlements/revenue and inventory recovery are zero. Per-order labor/design allocations are noncash scenario charges; setup cash is separately counted once.",
+        "zero_revenue_zero_recovery": true,
+        "no_double_counting_reviewed": true,
+        "cash_components": {
+          "inventory": {
+            "high": 40,
+            "basis": "SYNTHETIC ONLY: 5 units x USD 7 + USD 5 inbound; separate from samples and delivery.",
+            "source_ids": [
+              "QUOTE"
+            ],
+            "quantity": 5,
+            "quote_minimum_quantity": 5,
+            "unit_cash_high": 7,
+            "inbound_cash_high": 5
+          },
+          "samples_setup": {
+            "high": 10,
+            "basis": "SYNTHETIC ONLY: Separate sample and initial setup; not contained in the saleable inventory.",
+            "source_ids": [
+              "MODEL"
+            ]
+          },
+          "acquisition": {
+            "high": 50,
+            "basis": "SYNTHETIC ONLY: Entire trial cash acquisition cap is USD 50, not a per-order amount.",
+            "source_ids": [
+              "MODEL"
+            ]
+          },
+          "fulfillment_reserve": {
+            "high": 30,
+            "basis": "SYNTHETIC ONLY: 5 deliveries x USD 5 plus 5 packages x USD 1.",
+            "source_ids": [
+              "MODEL"
+            ]
+          },
+          "fees_taxes_returns_reserve": {
+            "high": 10,
+            "basis": "SYNTHETIC ONLY: 5 orders x USD 2 fees; taxes/refunds are absent charges in this synthetic boundary.",
+            "source_ids": [
+              "MODEL"
+            ]
+          },
+          "other_commitments": {
+            "high": 10,
+            "basis": "SYNTHETIC ONLY: One separate preparation cash commitment, counted once.",
+            "source_ids": [
+              "MODEL"
+            ]
+          }
+        }
+      }
+    }
+  ],
+  "limitation": "SYNTHETIC ONLY. Fictional sources, seller, rights checks, costs and outcomes for offline regression tests. No real identity, authorization, transaction or operating evidence."
+}

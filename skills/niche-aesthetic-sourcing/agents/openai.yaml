@@ -1,0 +1,6 @@
+interface:
+  display_name: "小众审美选品"
+  short_description: "用真实购买证据筛选海外小众产品，核算整单利润并设计可控试卖"
+  default_prompt: "使用 $niche-aesthetic-sourcing 帮我筛选海外小众审美产品，结合最新条件，只给最值得继续的候选、关键证据和下一步。"
+policy:
+  allow_implicit_invocation: true

@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="640" viewBox="0 0 1400 640" role="img" aria-labelledby="title desc">
+<title id="title">Niche Aesthetic Sourcing</title><desc id="desc">Taste, evidence, decision: a Codex skill for niche product research, full order economics, and bounded sales tests.</desc>
+<defs><linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#122526"/><stop offset="1" stop-color="#091514"/></linearGradient><linearGradient id="accent"><stop stop-color="#d7eb96"/><stop offset="1" stop-color="#92cdb5"/></linearGradient></defs>
+<rect width="1400" height="640" rx="28" fill="url(#bg)"/>
+<path d="M970 0v640M0 490h1400" stroke="#b7e8ce" stroke-opacity=".11"/>
+<circle cx="1190" cy="205" r="112" fill="none" stroke="#b5d6bf" stroke-opacity=".15" stroke-width="1"/>
+<circle cx="1190" cy="205" r="80" fill="none" stroke="#b5d6bf" stroke-opacity=".25" stroke-width="1"/>
+<path d="M1114 243l43-96 109 95M1114 243l103 55 49-56M1157 147l60 151" fill="none" stroke="url(#accent)" stroke-width="3"/>
+<circle cx="1114" cy="243" r="9" fill="#d7eb96"/><circle cx="1157" cy="147" r="9" fill="#d7eb96"/><circle cx="1266" cy="242" r="9" fill="#92cdb5"/><circle cx="1217" cy="298" r="9" fill="#92cdb5"/>
+<rect x="66" y="57" width="156" height="33" rx="16" fill="#b7e8ce" fill-opacity=".10"/><text x="89" y="79" font-family="Arial,sans-serif" font-size="13" letter-spacing="2" fill="#cbdfd5">CODEX SKILL</text>
+<text x="64" y="184" font-family="Arial,sans-serif" font-size="72" font-weight="700" letter-spacing="-2" fill="#f0f4e8">Niche Aesthetic</text>
+<text x="64" y="265" font-family="Arial,sans-serif" font-size="72" font-weight="700" letter-spacing="-2" fill="#f0f4e8">Sourcing</text>
+<text x="67" y="330" font-family="Arial,sans-serif" font-size="27" fill="#d7eb96">Turn aesthetic intuition into a testable business.</text>
+<text x="67" y="400" font-family="Arial,sans-serif" font-size="18" letter-spacing="4" fill="#9cbcb0">TASTE. EVIDENCE. DECISION.</text>
+<text x="67" y="545" font-family="Arial,sans-serif" font-size="13" letter-spacing="2" fill="#87a99c">BUYER NEEDS</text><text x="67" y="579" font-family="Arial,sans-serif" font-size="20" fill="#e5eee7">Find a reason to buy</text>
+<text x="440" y="545" font-family="Arial,sans-serif" font-size="13" letter-spacing="2" fill="#87a99c">ORDER ECONOMICS</text><text x="440" y="579" font-family="Arial,sans-serif" font-size="20" fill="#e5eee7">Account for the whole order</text>
+<text x="859" y="545" font-family="Arial,sans-serif" font-size="13" letter-spacing="2" fill="#87a99c">BOUNDED EXPERIMENTS</text><text x="859" y="579" font-family="Arial,sans-serif" font-size="20" fill="#e5eee7">Learn within your budget</text>
+</svg>

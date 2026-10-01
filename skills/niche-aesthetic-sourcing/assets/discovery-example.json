@@ -1,0 +1,88 @@
+{
+  "schema_version": "1.2",
+  "as_of": "2026-10-02",
+  "data_status": "synthetic_example_only",
+  "limitation": "纯格式演示；无真实商品、来源、买家、报价、权利、样品或成交。不得合并进真实研究账本。",
+  "scope": {
+    "business_model": "overseas_consumer_retail",
+    "seller_country": null,
+    "seller_entity": null,
+    "target_country": null,
+    "target_channel": null,
+    "ship_from": null,
+    "user_confirmed_preferences": [],
+    "user_exclusions": [],
+    "authorization": []
+  },
+  "sources": [
+    {
+      "id": "EXAMPLE-SOURCE",
+      "title": "合成格式示例，无真实页面",
+      "publisher": "synthetic fixture",
+      "independence_key": "synthetic-example",
+      "kind": "product_listing",
+      "url": "https://example.invalid/synthetic-format-only",
+      "retrieved_at": null,
+      "date_unknown_reason": "这是虚构的格式演示，不存在实际网页读取日期。",
+      "content_origin": "user_supplied",
+      "local_reference": "synthetic format example",
+      "market": null,
+      "data_scope": "listing",
+      "metrics": [],
+      "observation": "虚构示例：页面文字介绍一种用途。实际使用时替换成可追踪的原始观察。",
+      "limitations": "非真实证据；不能支持任何门槛通过。"
+    }
+  ],
+  "candidates": [
+    {
+      "id": "EXAMPLE-CANDIDATE",
+      "name": "合成格式示例产品",
+      "hypothesis": "仅演示如何记录一个待检验的用途与风格假设。",
+      "stage": "discovery",
+      "next_action": "用真实资料建立新记录，不保留这个虚构商品。",
+      "channel_access": {
+        "status": "unknown",
+        "rationale": "未确认实际主体和渠道。",
+        "source_ids": []
+      },
+      "acquisition": {
+        "status": "unknown",
+        "rationale": "没有实际访问与付款数据。"
+      },
+      "gates": {
+        "demand": {
+          "status": "unknown",
+          "rationale": "无实际购买证据。",
+          "source_ids": [
+            "EXAMPLE-SOURCE"
+          ]
+        },
+        "aesthetic_premium": {
+          "status": "unknown",
+          "rationale": "无可比成交。",
+          "source_ids": []
+        },
+        "competition_gap": {
+          "status": "unknown",
+          "rationale": "未查有效替代。",
+          "source_ids": []
+        },
+        "unit_economics": {
+          "status": "unknown",
+          "rationale": "无报价或整单成本。",
+          "source_ids": []
+        },
+        "rights_and_channel": {
+          "status": "unknown",
+          "rationale": "无具体素材与渠道资格。",
+          "source_ids": []
+        },
+        "fulfillment_fit": {
+          "status": "unknown",
+          "rationale": "未试样与履约。",
+          "source_ids": []
+        }
+      }
+    }
+  ]
+}

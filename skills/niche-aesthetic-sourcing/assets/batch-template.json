@@ -1,0 +1,19 @@
+{
+  "schema_version": "1.2",
+  "as_of": null,
+  "scope": {
+    "business_model": "overseas_consumer_retail",
+    "seller_country": null,
+    "seller_entity": null,
+    "target_country": null,
+    "target_channel": null,
+    "ship_from": null,
+    "budget": null,
+    "currency": null,
+    "user_confirmed_preferences": [],
+    "user_exclusions": [],
+    "authorization": []
+  },
+  "sources": [],
+  "candidates": []
+}

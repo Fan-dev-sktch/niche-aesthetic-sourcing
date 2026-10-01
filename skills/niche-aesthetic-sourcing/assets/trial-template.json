@@ -1,0 +1,35 @@
+{
+  "schema_version": "1.0",
+  "data_status": "template",
+  "currency": null,
+  "boundary": "一单总实付与所有费用；需说明运费/税/退款/劳动/设计分摊归属和避免重复计入",
+  "buyer_payment": null,
+  "costs": {
+    "product": null,
+    "packaging": null,
+    "delivery": null,
+    "platform_payment": null,
+    "taxes": null,
+    "returns": null,
+    "fulfillment_labor": null,
+    "design_allocated": null,
+    "other_variable": null
+  },
+  "min_contribution": null,
+  "fixed_setup": null,
+  "funnel": {
+    "qualified_unique_visitors": null,
+    "paid_buyers": null,
+    "paid_orders": null,
+    "acquisition_investment": null,
+    "period_start": null,
+    "period_end": null,
+    "measurement_basis": null
+  },
+  "range_field_example": {
+    "low": 0,
+    "high": 0,
+    "basis": "替换为有证据的区间/真实零费用理由；该示例不能当实际报价",
+    "source_ids": ["REPLACE_WITH_ACTUAL_SOURCE_ID"]
+  }
+}

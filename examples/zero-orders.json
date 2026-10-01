@@ -1,0 +1,36 @@
+{
+  "schema_version": "1.0",
+  "data_status": "synthetic",
+  "currency": "SYNTHETIC_UNIT",
+  "boundary": "合成零订单队列；假定500为已去重的合格独立访问，0付费买家/订单，30为本轮已花的获客现金投入。币种未给，使用无兑换意义的合成计价单位；劳动及其他成本未知，不称净利润。",
+  "buyer_payment": null,
+  "costs": {
+    "product": null,
+    "packaging": null,
+    "delivery": null,
+    "platform_payment": null,
+    "taxes": null,
+    "returns": null,
+    "fulfillment_labor": null,
+    "design_allocated": null,
+    "other_variable": null
+  },
+  "min_contribution": null,
+  "fixed_setup": null,
+  "funnel": {
+    "qualified_unique_visitors": 500,
+    "paid_buyers": 0,
+    "paid_orders": 0,
+    "acquisition_investment": {
+      "low": 30,
+      "high": 30,
+      "basis": "合成题设费用30；为可运行演示暂放在获客现金投入，若实际费用属于其他项目须重归属。自有劳动未知。",
+      "source_ids": [
+        "SYNTHETIC-ZERO-ORDER-CASE"
+      ]
+    },
+    "period_start": "2026-10-02",
+    "period_end": "2026-10-02",
+    "measurement_basis": "合成演示假定：同一SKU/到手价/国家和时期的500个去重合格独立访问；日期也是合成填写，不代表真实流量事件。"
+  }
+}
