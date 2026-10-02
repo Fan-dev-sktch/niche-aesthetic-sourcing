@@ -1,7 +1,7 @@
 ![Niche Aesthetic Sourcing](assets/banner.svg)
 
 [![Local tests](https://img.shields.io/badge/local_tests-12_passing-2e6d51)](tests/test_workflow.py)
-![Version](https://img.shields.io/badge/skill-v1.0.0-111827)
+![Version](https://img.shields.io/badge/skill-v1.0.1-111827)
 ![Runtime](https://img.shields.io/badge/tools-Python_stdlib-3776AB)
 
 中文 · [English](README.en.md) · [下载](https://github.com/Fan-dev-sktch/niche-aesthetic-sourcing/releases/latest) · [技能原文](skills/niche-aesthetic-sourcing/SKILL.md)
@@ -26,6 +26,8 @@
 | 整单利润 | 扣除配送、平台、获客、劳动和售后，一单能留下多少？ |
 | 权利与渠道 | 产品和宣传素材能否使用，真实卖家是否具备准入资格？ |
 | 履约 | 实物质量、适配、发货和退换能否兑现？ |
+
+要求快增长时，另外核对数据观察期和当前可比趋势；个人收藏用于找风格，完整成本用于判断利润。
 
 每项记录“通过 / 未知 / 不通过”。价格高、评论多、搜索结果少，都不能单独证明生意成立。未知费用保留未知；全店销量不归给单品；供应网页不冒充正式报价。
 

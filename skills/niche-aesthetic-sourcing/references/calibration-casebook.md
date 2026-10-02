@@ -48,3 +48,15 @@
 [anniyell扣件](https://anniyell.com/products/b-grade-have-you-seen-them-acrylic-photocard-holder)实际主图有暖桃色边框、醒目文字、猫/花图案和橙色珠链，背景使用草地、格纹布及星形道具。区分产品造型和拍摄氛围；不凭图判断卡套适配或权属。浏览器France/EUR页面所选A-GRADE显示€13.95及Add to cart；研究快照此前USD15与Sold out。保留地区/变体/读取差异，不把二者当价格上涨或需求变化。
 
 其余五件跨品类商品仍未实际看图。商品审美与用户偏好没有因此全部验收。本仓库保留观察摘要及来源链接，未随附完整采集日志；实际决策前须重查。官方工具入口和指定规格公开价见[渠道与试卖](channels-and-trials.md)。
+
+## 增长与套装成本复核：2026-10-02
+
+以下是公开来源观察，用于检验推理；未取得我方订单、样品或完整利润。
+
+- [Etsy春夏2026报告](https://www.etsy.com/seller-handbook/article/1473931456647)的journal charm搜索+395%，数据截至2026-02-10，近三个月对上一年同期，美国登录用户的标准化搜索。不能据此认定十月仍快增长，也不能归给某个单品的销量。
+- [Pinterest爱好报告](https://newsroom.pinterest.com/en-ca/news/2026-pinterest-hobbies-trend-report/)于2026-08-25发布，clay bag charms +1499%、sashiko ideas +1509%的口径是全球文本搜索、2026年5月对2025年5月。绝对基数未披露；不是八月实时增长，也不是成品付款。
+- [Google Trends方法](https://support.google.com/trends/answer/4365533?hl=en)说明相对指数、采样和低量限制。核验时保留实际查询、地区与完整期间；能导出时保存原始导出，否则保留截图或原值及读取限制。历史报告、不同关键词和不同平台不可拼成一个增长率。
+- [Wren图案包](https://wrenbirdarts.com/products/visible-mending-transfers-value-pack)挂牌USD36对应16片、约4×5英寸，工具不含。拟做同尺寸8片时，应先按数量核对；不能沿用16片价格来暗示我方高利润。
+- [Sulky水溶纸](https://sulky.com/sulky-sticky-fabrisolvy-stabilizer-white-85-x-11-pkg-12-sheets)USD15.99对应12张8.5×11英寸。保守每张出2片时，8片的纸材消耗约USD5.33；裁切、打印、设计、劳动、失败损耗、包装、配送、税费、获客与退赔仍未知。纸材消耗不是成品成本；整包采购及开发测试另算现金。
+
+这些观察支持检查观察期、对齐规格与保留未知费用，不构成某品类永久排除规则或盈利承诺。公开链接和观察摘要供重查，不包含私人账号资料；价格和政策在实际决策前重核。
