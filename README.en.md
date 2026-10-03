@@ -23,6 +23,8 @@ It follows buyer needs through alternatives, full order economics, seller eligib
 
 Each check is **pass / unknown / fail**. Listing prices, likes, reviews and shop totals do not become SKU sales. Unknown costs stay unknown.
 
+For markets with meaningful scale and growth, first check comparable actual retail sales and the absolute spending increment. Separate units, buyers, pricing and channel migration. Parent-market growth qualifies a research direction; it does not establish accessory demand, a design premium or profit. A single creator's crowdfunding campaign validates that case rather than the market.
+
 The cash guard covers the whole trial: inventory and quoted MOQ, samples/setup, acquisition, fulfillment reserves, fees/taxes/refunds, and other commitments. It checks current user budgets and uses a conservative no-revenue, no-stock-recovery assumption.
 
 ## Install
